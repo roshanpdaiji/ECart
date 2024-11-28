@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif;
+}
+
+/* styles.css */
+.productcard {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+    transition: transform 0.2s; /* For hover effect (optional) */
+  }
+  
+  .productcard:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
